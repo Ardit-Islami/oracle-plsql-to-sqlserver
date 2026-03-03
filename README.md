@@ -17,16 +17,16 @@ This repo exists to turn a company-provided PL/SQL course into **portable, emplo
 
 Each concept is implemented twice:
 
-* `oracle/` — Oracle PL/SQL scripts
-* `sqlserver/` — SQL Server T-SQL equivalents
+* `oracle/` - Oracle PL/SQL scripts
+* `sqlserver/` - SQL Server T-SQL equivalents
 
 Folder mapping:
 
-* `01_basics/` — block structure, variables, types, control flow
-* `02_procedures_functions/` — procedures, functions, parameters, modularization
-* `03_exceptions/` (Oracle) / `03_error_handling/` (SQL Server) — error patterns, custom errors
-* `04_cursors/` — cursor patterns + alternatives
-* `05_triggers/` — DML triggers, auditing, guardrails
+* `01_basics/` - block structure, variables, types, control flow
+* `02_procedures_functions/` - procedures, functions, parameters, modularization
+* `03_exceptions/` (Oracle) / `03_error_handling/` (SQL Server) - error patterns, custom errors
+* `04_cursors/` - cursor patterns + alternatives
+* `05_triggers/` - DML triggers, auditing, guardrails
 
 File naming convention:
 
@@ -34,13 +34,13 @@ File naming convention:
 
 ## How to use
 
-### Option A — SQL Server (SSMS)
+### Option A - SQL Server (SSMS)
 
 1. Open any script under `sqlserver/` in SSMS.
 2. Run it against a local/dev database.
 3. Scripts are written to be self-contained where possible (create objects, run demo calls, show output).
 
-### Option B — Oracle
+### Option B - Oracle
 
 Run scripts under `oracle/` using one of:
 
